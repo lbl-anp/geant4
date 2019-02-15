@@ -30,8 +30,8 @@ include(SetInstallPath)
 
 # searching packages...
 find_package(Geant4 REQUIRED)
-find_package(PythonInterp REQUIRED)
-find_package(PythonLibs REQUIRED)
+find_package(PythonInterp 3 REQUIRED)
+find_package(PythonLibs 3 REQUIRED)
 find_package(Boost)
 find_package(XercesC)
 find_package(ROOT)
