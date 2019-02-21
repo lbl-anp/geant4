@@ -85,9 +85,6 @@ gParticleIterator = PyG4ParticleList()
 # gProcessTable
 gProcessTable = G4ProcessTable.GetProcessTable()
 
-# gLossTableManager
-gLossTableManager = G4LossTableManager.Instance()
-
 # gProductionCutsTable
 gProductionCutsTable = G4ProductionCutsTable.GetProductionCutsTable()
 
